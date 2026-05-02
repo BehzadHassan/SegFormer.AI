@@ -104,7 +104,7 @@ export default function ImageComparisonSlider({ originalSrc, overlaySrc }: Image
       <motion.div 
         animate={{ 
           scale: isDragging ? 1.2 : 1,
-          backgroundColor: isDragging ? "var(--primary)" : "white"
+          backgroundColor: isDragging ? "#6366f1" : "#ffffff"
         }}
         className="absolute top-1/2 z-30 flex items-center justify-center w-12 h-12 -translate-y-1/2 bg-white rounded-full shadow-2xl pointer-events-none border-4 border-black/10"
         style={{ left: `${sliderPosition}%`, transform: 'translate(-50%, -50%)' }}
