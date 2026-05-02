@@ -159,7 +159,7 @@ export default function DemoPage() {
                   type="text"
                   value={apiBaseUrl}
                   onChange={(e) => setApiBaseUrl(e.target.value)}
-                  placeholder="e.g. https://ngrok-url.app"
+                  placeholder="https://xxxx-xx-xx-xx.ngrok-free.app"
                   className="w-full px-5 py-4 text-white transition-all bg-black/40 border-2 rounded-2xl border-white/5 focus:border-primary/50 focus:ring-4 focus:ring-primary/10 outline-none font-mono text-sm"
                 />
                 <p className="mt-3 text-[11px] text-slate-500 font-medium italic">

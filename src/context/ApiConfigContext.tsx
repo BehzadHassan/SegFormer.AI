@@ -10,7 +10,7 @@ interface ApiConfigContextType {
 const ApiConfigContext = createContext<ApiConfigContextType | undefined>(undefined);
 
 export function ApiConfigProvider({ children }: { children: React.ReactNode }) {
-  const [apiBaseUrl, setApiBaseUrlState] = useState<string>('http://localhost:8000');
+  const [apiBaseUrl, setApiBaseUrlState] = useState<string>('https://xxxx-xx-xx-xx.ngrok-free.app');
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
